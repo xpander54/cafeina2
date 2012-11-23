@@ -1,0 +1,77 @@
+<!DOCTYPE html>  
+   <html lang="en">  
+     <head>  
+       <meta charset="utf-8">  
+       <title>Cafeina2 Radio</title>  
+       <link rel="stylesheet" href="styles.css">  
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js">
+  </script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+  </script>
+  <script type="text/javascript" src="jqTimer.js"></script>
+  <script src="script.js"></script>
+  
+     </head>  
+     <body>  
+       
+       	<div data-role="page">
+			
+            <div data-role="header">
+            	<h1>Cafeina2 Radio</h1>
+            </div><!-- /header -->
+            
+            
+
+            <div class="middle">
+                
+                    <div class="logo1">
+                      <img src="img/1024.jpg" border="0" width="100%">
+                    </div>
+                    
+                    <div class="streamMeta">
+
+                        <div class="playBtn">
+                          <img src="img/play.png" border="0" />
+                        </div>
+                                       
+                        <audio controls="controls" width="100%" height="200px" autoplay> 
+                        	<source src="http://radio.wfm.fm:8000/stream/1/;stream.nsv" type="audio/mpeg" />   
+                        </audio>
+
+                        <div class="currentSong">
+                        </div>
+                        <div class="nextSong">
+                        </div>
+
+                        <!--
+                        <div class="fbTwitter">
+                          
+                          <a href="#" onclick="clicked('http://www.facebook.com/Cafeinados');" >
+                          
+                            <img src="img/fb.png" height="10%" border="0" />
+                          
+                          </a>
+                          
+                          <a href="#" onclick="clicked('https://twitter.com/Cafeina2RADIO');" >
+
+                            <img src="img/twit.png" height="10%" border="0" style="margin:0px 0px 0px 10%"/>
+                          
+                          </a>
+
+                        </div>
+
+                      -->
+
+                    </div>
+
+                
+    		    </div>
+    	   
+         </div><!-- /page -->
+       
+        
+      </body>    
+   </html>  

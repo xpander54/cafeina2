@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg
+{
+	width:1000px;
+	height:1230px;
+	margin:0 auto;
+	background:url(bg.jpg);
+}
+
+.btn1
+{
+	width:300px;
+	height:300px;
+	position:absolute;
+	cursor:pointer;
+	margin:850px 0px 0px 360px;
+}
+
